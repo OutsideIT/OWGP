@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Elastic Security Background</title>
+  <title>Elastic Security Background</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /* Page reset */
@@ -97,13 +98,12 @@
     <div class="gradient-overlay"></div>
     <div class="scanlines"></div>
     <div class="title">
-      <div class="title-main">ELASTIC&nbsp;SECURITY</div>
-      <div class="title-sub">Observability · Automation · Threat Detection</div>
+      <div class="title-main">OIT&nbsp;SECURITY</div>
+      <div class="title-sub">Continuous Security Monitoring, Observability and Automation Orchestration</div>
     </div>
   </div>
 
   <script>
-    // Simple particle network animation in blue/green tones
 
     const canvas = document.getElementById('bg-canvas');
     const ctx = canvas.getContext('2d');
@@ -112,10 +112,11 @@
     let width = 0;
     let height = 0;
 
-    const MAX_PARTICLES = 120;          // Tweak this for performance
-    const LINK_DISTANCE = 140;          // Max distance for connecting lines
-    const SPEED = 0.35;                 // Base particle speed
-    const COLORS = ['#00b3a4', '#00a9e5', '#9fd64f']; // Elastic-like palette
+    const MAX_PARTICLES = 100;          // Tweak this for performance
+    const LINK_DISTANCE = 50;          // Max distance for connecting lines
+    const SPEED = 0.30;                 // Base particle speed
+    // const COLORS = ['#00b3a4', '#00a9e5', '#9fd64f']; // Elastic-like palette
+    const COLORS = ['#2BBF8A', '#6CD23D', '#00A6E6']; // Elastic-like palette
 
     function resize() {
       width = canvas.clientWidth;
